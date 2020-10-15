@@ -129,3 +129,10 @@ STATIC_URL = '/static/'
 
 # My settings
 AUTH_USER_MODEL = 'users.CustomUser'
+
+STATICFILES_DIRS = (str(BASE_DIR.joinpath('static')),)
+STATIC_ROOT = str(BASE_DIR.joinpath('staticfiles'))
+STATICFILES_FINDERS = [
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+]
