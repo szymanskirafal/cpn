@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 django = "*"
 psycopg2-binary = "==2.8.3"
+environs = {extras = ["django"], version = "*"}
 
 [requires]
 python_version = "3.7"
