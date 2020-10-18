@@ -6,15 +6,11 @@ h1 {
   color: brown;
 }
 
-.up {
-  height: 2000px;
-  background-color: red;
+.left {
   background: linear-gradient(180deg, #ffffff ,green);
 }
 
-.middle {
-  height: 1500px;
-  background-color: pink;
+.right {
   background: linear-gradient(180deg, #fff5e6, pink);
 }
 

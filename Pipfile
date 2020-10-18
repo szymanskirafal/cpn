@@ -9,6 +9,8 @@ verify_ssl = true
 django = "*"
 psycopg2-binary = "==2.8.3"
 environs = {extras = ["django"], version = "*"}
+whitenoise = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"

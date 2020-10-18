@@ -1,0 +1,32 @@
+html, body {
+  height: 100%;
+}
+
+h1 {
+  color: brown;
+}
+
+.up {
+  height: 2000px;
+  background-color: red;
+  background: linear-gradient(180deg, #ffffff ,green);
+}
+
+.middle {
+  height: 1500px;
+  background-color: pink;
+  background: linear-gradient(180deg, #fff5e6, pink);
+}
+
+.down {
+  height: 1500px;
+  background-color: green;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
