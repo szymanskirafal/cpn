@@ -27,6 +27,11 @@ html, body {
   background-color: green;
 }
 
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
 .olive {
   background-color: olive;
 }
