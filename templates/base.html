@@ -14,10 +14,16 @@
     <title>CPN Ekoserwis</title>
   </head>
   <body>
-    <div class="container-fluid">
-      {% block content %}
-      {% endblock content %}
-    </div>
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img src="{% static 'images/logo_cpn.png' %}" width="48" height="30" alt="" loading="lazy">
+      </a>
+    </nav>
+
+    {% block content %}
+    {% endblock content %}
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 

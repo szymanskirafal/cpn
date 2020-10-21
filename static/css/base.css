@@ -2,8 +2,8 @@ html, body {
   height: 100%;
 }
 
-h1 {
-  color: brown;
+.slogan {
+  margin-top: 20%;
 }
 
 .left {
@@ -19,10 +19,26 @@ h1 {
   background-color: green;
 }
 
+.gold {
+  background-color: gold;
+}
+
 .green {
   background-color: green;
 }
 
+.olive {
+  background-color: olive;
+}
+
+.pink {
+  background-color: pink;
+}
+
 .red {
   background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
 }
