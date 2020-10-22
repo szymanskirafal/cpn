@@ -2,13 +2,39 @@ html, body {
   height: 100%;
 }
 
+.creme {
+  background: linear-gradient(180deg, #e6e6e6 ,#fffae6);
+}
+
+.bleue {
+  background: linear-gradient(180deg, #fffae6 ,#e6f7ff);
+}
+
+.grene {
+  background: linear-gradient(180deg, #e6f7ff ,#ebfaeb);
+}
+
+.rose {
+  background: linear-gradient(180deg, #ffffff, #e6e6e6);
+}
+
+.citrone {
+  background: linear-gradient(180deg, #ebfaeb ,#ffffe6);
+}
+
+.mint {
+  background: linear-gradient(180deg, #ffffe6 ,#e6fff7);
+}
+
+.ice {
+  background: linear-gradient(180deg, #e6fff7 ,#e6f7ff);
+}
+
 .slogan {
   margin-top: 20%;
 }
 
-.left {
-  background: linear-gradient(180deg, #ffffff ,green);
-}
+
 
 .right {
   background: linear-gradient(180deg, #fff5e6, pink);
