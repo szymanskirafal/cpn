@@ -35,7 +35,10 @@ html, body {
 }
 
 
-
+.half-img {
+  width: 80%;
+  height: auto;
+}
 .right {
   background: linear-gradient(180deg, #fff5e6, pink);
 }
@@ -72,4 +75,34 @@ html, body {
 
 .yellow {
   background-color: yellow;
+}
+
+.big-text {
+  font-size: 1.5em;
+}
+
+.bigger-text {
+  font-size: 2.0em;
+}
+
+.white-text {
+  color: white;
+}
+
+.traffic {
+  background-image: url("/static/images/traffic.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.trucks {
+  background-image: url("/static/images/trucks.jpg");
+  background-position: right;
+  background-size: cover;
+}
+
+.ekoterm {
+  background-image: url("/static/images/ekoterm.jpg");
+  background-position: center;
+  background-size: cover;
 }

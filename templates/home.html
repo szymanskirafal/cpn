@@ -5,36 +5,58 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-<div class="h-75 d-inline-block container-fluid">
+<div class="h-100 d-inline-block container-fluid trucks">
+</div>
+<div class="h-100 d-inline-block container-fluid">
   <div class="h-25 d-inline-block container-fluid"></div>
-  <div class="h-50 d-inline-block container-fluid">
-    <div class="h-25 d-inline-block container-fluid"></div>
-    <div class="h-50 d-inline-block container-fluid text-center">
-      <h1>CPN EKOSERWIS</h1>
-      <p>Paliwa / oleje / płyny</p>
-      <p>Ochrona środowiska / odpady</p>
+  <div class="row text-center">
+    <div class="col-md-6 p-d-3">
+      <img class="half-img" src="{% static 'images/ooad.png' %}" alt="">
+    </div>
+    <div class="col-md-6 big-text p-3">
+      <p>Oleje, smary</p>
+      <p>płyny eksploatacyjne</p>
+      <hr>
+      <p>samochody ciężarowe</p>
+      <p>rolnictwo</p>
+      <p>przemysł</p>
+      <p>motoryzacja</p>
+      <a class="btn btn-outline-danger btn-lg" href="#" role="button">Więcej</a>
     </div>
   </div>
+  <div class="h-25 d-inline-block container-fluid"></div>
 </div>
-<div class="vh-100 rose text-center">
-  <p>Autoryzowany Dystrybutor ORLEN OIL</p>
+
+<div class="h-100 d-inline-block container-fluid ekoterm">
+  <div class="h-25 d-inline-block container-fluid"></div>
+  <div class="h-50 d-inline-block container-fluid text-center bigger-text">
+    <img src="{% static 'images/ekoterm_logo.png' %}" width="200" height="60" alt="" loading="lazy">
+    <br><br>
+    <a class="btn btn-outline-dark btn-lg" href="#" role="button">Więcej</a>
+  </div>
+  <div class="h-25 d-inline-block container-fluid"></div>
 </div>
-<div class="vh-100 creme text-center">
-  <p>paliwa</p>
+
+<div class="h-100 d-inline-block container-fluid traffic text-center">
+  <div class="h-25 d-inline-block container-fluid"></div>
+  <div class="h-50 d-inline-block container-fluid">
+    <a class="btn" href="#" role="button">
+      <img class="rounded" src="{% static 'images/on.png' %}" width="70" height="70" alt="" loading="lazy">
+      <img class="rounded" src="{% static 'images/pb.png' %}" width="70" height="70" alt="" loading="lazy">
+    </a>
+  </div>
+  <div class="h-25 d-inline-block container-fluid"></div>
 </div>
+
+
 <div class="vh-100 bleue text-center">
-  <p>płyny eksploatacyjne</p>
 </div>
 <div class="vh-100 grene text-center">
-  <p>ochrona środowiska</p>
 </div>
 <div class="vh-100 citrone text-center">
-  <p>dokumenty</p>
 </div>
 <div class="vh-100 mint text-center">
-  <p>historia</p>
 </div>
 <div class="vh-100 ice text-center">
-  <p>polityka prywatności</p>
 </div>
 {% endblock content %}
