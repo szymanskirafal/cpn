@@ -87,6 +87,20 @@ html, body {
 
 .white-text {
   color: white;
+  text-shadow: 3px 3px 15px black;
+}
+
+.fuel {
+  box-shadow: 3px 3px 15px black;
+}
+
+.paliwa {
+  font-family: 'EB Garamond', serif;
+}
+.eco {
+  background-image: url("/static/images/eco.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .traffic {
