@@ -19,15 +19,11 @@ html, body {
 }
 
 .citrone {
-  background: linear-gradient(180deg, #ebfaeb ,#ffffe6);
-}
-
-.mint {
-  background: linear-gradient(180deg, #ffffe6 ,#e6fff7);
+  background: linear-gradient(180deg, #ffffff ,#fff5e6);
 }
 
 .ice {
-  background: linear-gradient(180deg, #e6fff7 ,#e6f7ff);
+  background: linear-gradient(180deg, #fff5e6 ,#e6f0ff);
 }
 
 .slogan {
