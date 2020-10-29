@@ -60,35 +60,57 @@
   </div>
 </div>
 
-<div id="phones" class="vh-100 container">
+<div id="phones" class="container">
   <br><br>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="container">
-          <p>CPN Ekoserwis Sp. z o.o.</p>
-          <p>ul. Naftowa 1, 66-016 Czerwieńsk</p>
-          <p>tel. +48 68 327 80 43</p>
-          <p>e-mail biuro@cpnekoserwis.pl</p>
-          <p>NIP 9730674218</p>
-          <p>REGON 971285090</p>
-          <p>KRS 000041644</p>
-          <p>Bank PKO BP</p>
-          <p>konto nr 70 1020 5402 0000 0102 0381 1627</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="container">
-          <br><br>
-          <p>Oddział w Szczecinie:</p>
-          <p>ul. Gdańska 5, 70-660 Szczecin</p>
-          <p>tel. +48 695 196 030
-        </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="container">
+        <p>CPN Ekoserwis Sp. z o.o.</p>
+        <p>ul. Naftowa 1, 66-016 Czerwieńsk</p>
+        <p>tel. +48 68 327 80 43</p>
+        <p>e-mail biuro@cpnekoserwis.pl</p>
+        <p>NIP 9730674218</p>
+        <p>REGON 971285090</p>
+        <p>KRS 000041644</p>
+        <p>Bank PKO BP</p>
+        <p>konto nr 70 1020 5402 0000 0102 0381 1627</p>
       </div>
     </div>
+    <div class="col-md-6">
+      <div class="container">
+        <br><br>
+        <p>Oddział w Szczecinie:</p>
+        <p>ul. Gdańska 5, 70-660 Szczecin</p>
+        <p>tel. +48 695 196 030
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="container-fluid text-center">
+  <a class="btn btn-outline-dark btn-lg" href="{% url 'phones' %}" role="button">Telefony</a>
 </div>
 
-<div class="vh-100 citrone text-center">
+<div id="history" class="vh-100 ice text-center">
+  <div class="h-25 d-inline-block container-fluid"></div>
+  <div class="h-50 d-inline-block container-fluid">
+    <a class="btn" href="#" role="button">
+      <img class="rounded-circle shadow-lg" src="{% static 'images/clock.png' %}" width="300" height="300" alt="" loading="lazy">
+    </a>
+  </div>
+  <div class="h-25 d-inline-block container-fluid"></div>
 </div>
-<div class="vh-100 ice text-center">
+
+<div id="policy" class="vh-100 grey text-center">
+  <div class="h-25 d-inline-block container-fluid"></div>
+  <div class="h-50 d-inline-block container-fluid big-text">
+    <p>Polityka prywatności</p>
+    <p>RODO</p>
+    <p>cookies</p>
+    <a class="btn btn-outline-dark btn-lg" href="#" role="button">Więcej</a>
+
+  </div>
+  <div class="h-25 d-inline-block container-fluid"></div>
 </div>
+
 {% endblock content %}
