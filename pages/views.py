@@ -5,9 +5,9 @@ class HomePageTemplateView(generic.TemplateView):
     template_name = 'home.html'
 
 
-class PhonesTemplateView(generic.TemplateView):
-    template_name = 'phones.html'
+class ContactTemplateView(generic.TemplateView):
+    template_name = 'contact.html'
 
 home_view = HomePageTemplateView.as_view()
 
-phones_view = PhonesTemplateView.as_view()
+contact_view = ContactTemplateView.as_view()

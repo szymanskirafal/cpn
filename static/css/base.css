@@ -18,6 +18,7 @@ html, body {
   background: linear-gradient(180deg, #ffffff, #e6e6e6);
 }
 
+
 .citrone {
   background: linear-gradient(180deg, #ffffff ,#fff5e6);
 }
@@ -35,10 +36,6 @@ html, body {
 }
 
 
-.half-img {
-  width: 80%;
-  height: auto;
-}
 .right {
   background: linear-gradient(180deg, #fff5e6, pink);
 }
@@ -48,33 +45,25 @@ html, body {
   background-color: green;
 }
 
-.gold {
-  background-color: gold;
+
+.grey-light {
+  background-color: #f0f0f5;
 }
 
-.green {
-  background-color: green;
+.grey-normal {
+  background-color: #e0e0eb;
 }
+
+
 
 .navbar-toggler {
   border: none;
   outline: none;
 }
 
-.olive {
-  background-color: olive;
-}
-
-.pink {
-  background-color: pink;
-}
-
-.red {
-  background-color: red;
-}
-
-.yellow {
-  background-color: yellow;
+.half-img {
+  width: 80%;
+  height: auto;
 }
 
 .big-text {
