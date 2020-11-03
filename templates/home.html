@@ -21,7 +21,7 @@
       <p>rolnictwo</p>
       <p>przemysł</p>
       <p>motoryzacja</p>
-      <a class="btn btn-outline-danger btn-lg" href="#" role="button">Więcej</a>
+      <a class="btn btn-outline-danger btn-lg" href="{% url 'pages:oils' %}" role="button">Więcej</a>
     </div>
   </div>
   <div class="h-25 d-inline-block container-fluid"></div>
@@ -33,7 +33,7 @@
     <p>Olej grzewczy ekoterm</p>
     <img src="{% static 'images/ekoterm_logo.png' %}" width="200" height="60" alt="" loading="lazy">
     <p></p>
-    <a class="btn btn-outline-dark btn-lg p-t-3" href="#" role="button">Więcej</a>
+    <a class="btn btn-outline-dark btn-lg p-t-3" href="{% url 'pages:ekoterm' %}" role="button">Więcej</a>
   </div>
   <div class="h-25 d-inline-block container-fluid"></div>
 </div>
@@ -42,7 +42,7 @@
   <div class="h-25 d-inline-block container-fluid"></div>
   <div class="h-50 d-inline-block container-fluid">
     <p class="white-text display-4">Paliwa</p>
-    <a class="btn" href="#" role="button">
+    <a class="btn" href="{% url 'pages:fuels' %}" role="button">
       <img class="rounded fuel" src="{% static 'images/on.png' %}" width="70" height="70" alt="" loading="lazy">
       <img class="rounded fuel" src="{% static 'images/pb.png' %}" width="70" height="70" alt="" loading="lazy">
     </a>
@@ -56,7 +56,7 @@
     <p class="white-text">Ochrona środowiska</p>
     <p class="white-text">odpady</p>
     <p class="white-text">dokumentacja</p>
-    <a class="btn btn-light btn-lg" href="#" role="button">Więcej</a>
+    <a class="btn btn-light btn-lg" href="{% url 'pages:environment' %}" role="button">Więcej</a>
   </div>
 </div>
 
@@ -95,7 +95,7 @@
 <div id="history" class="vh-100 ice text-center">
   <div class="h-25 d-inline-block container-fluid"></div>
   <div class="h-50 d-inline-block container-fluid">
-    <a class="btn" href="#" role="button">
+    <a class="btn" href="{% url 'pages:history' %}" role="button">
       <img class="rounded-circle shadow-lg" src="{% static 'images/clock.png' %}" width="300" height="300" alt="" loading="lazy">
     </a>
   </div>
@@ -108,7 +108,7 @@
     <p>Polityka prywatności</p>
     <p>RODO</p>
     <p>cookies</p>
-    <a class="btn btn-outline-dark btn-lg" href="#" role="button">Więcej</a>
+    <a class="btn btn-outline-dark btn-lg" href="{% url 'pages:privacy' %}" role="button">Więcej</a>
 
   </div>
   <div class="h-25 d-inline-block container-fluid"></div>
