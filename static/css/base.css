@@ -50,6 +50,10 @@ html, body {
   background-color: #f0f0f5;
 }
 
+.grey-light-to-white {
+  background: linear-gradient(180deg, #f0f0f5, white);
+}
+
 .grey-normal {
   background-color: #e0e0eb;
 }

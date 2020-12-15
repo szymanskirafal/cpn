@@ -5,11 +5,23 @@
 {% block title %}Oleje{% endblock title %}
 
 {% block content %}
-<div class="container-fluid grey-light">
-  <br><br>
-  <br><br>
-  <h2>Oleje</h2>
-  <br><br>
+<div class="container-fluid">
+  <div class="container">
+    <br><br>
+    <br><br>
+    <div class="row text-center">
+      <div class="col-md-6 p-d-3">
+        <img class="half-img" src="{% static 'images/ooad.png' %}" alt="">
+      </div>
+      <div class="col-md-6 big-text p-3">
+        <p>Oferujemy pełen asortyment, tj. oleje, smary, płyny eksploatacyjne oraz chemię samochodową.</p>
+        <p>Wszystkie produkty dostarczamy własnym transportem.</p>
+        <a class="btn btn-outline-danger btn-lg" href="{% url 'pages:oils' %}" role="button">Więcej</a>
+      </div>
+
+    </div>
+
+  </div>
 </div>
 
 
