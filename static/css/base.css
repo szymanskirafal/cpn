@@ -90,6 +90,7 @@ html, body {
 .paliwa {
   font-family: 'EB Garamond', serif;
 }
+
 .eco {
   background-image: url("/static/images/eco.jpg");
   background-position: center;
@@ -102,14 +103,31 @@ html, body {
   background-size: cover;
 }
 
+.yello {
+  background-image: url("/static/images/sh1.png");
+  background-position: left;
+  background-size: cover;
+}
+
+.traffic-color {
+  background-color: #ffd9b3;
+}
+
+
 .trucks {
   background-image: url("/static/images/trucks.jpg");
-  background-position: right;
+  background-position: center;
   background-size: cover;
 }
 
 .ekoterm {
   background-image: url("/static/images/ekoterm.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.brands {
+  background-image: url("/static/images/bridge_crop.png");
   background-position: center;
   background-size: cover;
 }

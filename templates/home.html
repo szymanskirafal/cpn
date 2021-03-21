@@ -7,25 +7,6 @@
 {% block content %}
 <div class="h-100 d-inline-block container-fluid trucks">
 </div>
-<div id="oils" class="h-100 d-inline-block container-fluid">
-  <div class="h-25 d-inline-block container-fluid"></div>
-  <div class="row text-center">
-    <div class="col-md-6 p-d-3">
-      <img class="half-img" src="{% static 'images/ooad.png' %}" alt="">
-    </div>
-    <div class="col-md-6 big-text p-3">
-      <p>Oleje, smary</p>
-      <p>płyny eksploatacyjne</p>
-      <hr>
-      <p>samochody ciężarowe</p>
-      <p>rolnictwo</p>
-      <p>przemysł</p>
-      <p>motoryzacja</p>
-      <a class="btn btn-outline-danger btn-lg" href="{% url 'pages:oils' %}" role="button">Więcej</a>
-    </div>
-  </div>
-  <div class="h-25 d-inline-block container-fluid"></div>
-</div>
 
 <div id="ekoterm" class="h-100 d-inline-block container-fluid ekoterm">
   <div class="h-25 d-inline-block container-fluid"></div>
@@ -50,6 +31,34 @@
     </a>
   </div>
   <div class="h-25 d-inline-block container-fluid"></div>
+</div>
+
+<div id="oils" class="h-100 d-inline-block container-fluid">
+  <div class="h-25 d-inline-block container-fluid"></div>
+  <div class="row text-center">
+    <div class="col-md-6 p-d-3">
+      <img class="half-img" src="{% static 'images/oo.png' %}" alt="">
+    </div>
+    <div class="col-md-6 big-text p-3">
+      <br><br>
+      <p>Autoryzowany Dystrybutor</p>
+      <hr>
+      <p>oleje</p>
+      <p>smary</p>
+      <p>płyny</p>
+      <a class="btn btn-outline-danger btn-lg" href="{% url 'pages:oils' %}" role="button">Więcej</a>
+    </div>
+  </div>
+  <div class="h-25 d-inline-block container-fluid"></div>
+</div>
+
+<div id="west" class="vh-100 yello text-center bigger-text">
+  <div class="h-25 d-inline-block container-fluid"></div>
+  <div class="h-50 d-inline-block container-fluid">
+    <p>zachodnie</p>
+    <p>środki smarne</p>
+    <a class="btn btn-outline-danger btn-lg" href="{% url 'pages:environment' %}" role="button">Więcej</a>
+  </div>
 </div>
 
 <div id="eco" class="vh-100 eco text-center bigger-text">
