@@ -104,7 +104,7 @@ html, body {
 }
 
 .yello {
-  background-image: url("/static/images/sh1.png");
+  background-image: url("/static/images/sh3.png");
   background-position: left;
   background-size: cover;
 }
@@ -112,7 +112,6 @@ html, body {
 .traffic-color {
   background-color: #ffd9b3;
 }
-
 
 .trucks {
   background-image: url("/static/images/trucks.jpg");
