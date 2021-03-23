@@ -2,19 +2,41 @@ html, body {
   height: 100%;
 }
 
-h1 {
-  color: brown;
+.creme {
+  background: linear-gradient(180deg, #e6e6e6 ,#fffae6);
 }
 
-.up {
-  height: 2000px;
-  background-color: red;
-  background: linear-gradient(180deg, #ffffff ,green);
+.bleue {
+  background: linear-gradient(180deg, #fffae6 ,#e6f7ff);
 }
 
-.middle {
-  height: 1500px;
-  background-color: pink;
+.grene {
+  background: linear-gradient(180deg, #e6f7ff ,#ebfaeb);
+}
+
+.rose {
+  background: linear-gradient(180deg, #ffffff, #e6e6e6);
+}
+
+
+.citrone {
+  background: linear-gradient(180deg, #ffffff ,#fff5e6);
+}
+
+.ice {
+  background: linear-gradient(180deg, #ffffff ,#e6f0ff);
+}
+
+.grey {
+  background: linear-gradient(180deg, #e6f0ff , #d1d1e0);
+}
+
+.slogan {
+  margin-top: 20%;
+}
+
+
+.right {
   background: linear-gradient(180deg, #fff5e6, pink);
 }
 
@@ -23,10 +45,88 @@ h1 {
   background-color: green;
 }
 
-.green {
-  background-color: green;
+
+.grey-light {
+  background-color: #f0f0f5;
 }
 
-.red {
-  background-color: red;
+.grey-light-to-white {
+  background: linear-gradient(180deg, #f0f0f5, white);
+}
+
+.grey-normal {
+  background-color: #e0e0eb;
+}
+
+
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.half-img {
+  width: 80%;
+  height: auto;
+}
+
+.big-text {
+  font-size: 1.5em;
+}
+
+.bigger-text {
+  font-size: 2.0em;
+}
+
+.white-text {
+  color: white;
+  text-shadow: 3px 3px 15px black;
+}
+
+.fuel {
+  box-shadow: 3px 3px 15px black;
+}
+
+.paliwa {
+  font-family: 'EB Garamond', serif;
+}
+
+.eco {
+  background-image: url("/static/images/eco.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.traffic {
+  background-image: url("/static/images/traffic.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.yello {
+  background-image: url("/static/images/sh3.png");
+  background-position: left;
+  background-size: cover;
+}
+
+.traffic-color {
+  background-color: #ffd9b3;
+}
+
+.trucks {
+  background-image: url("/static/images/trucks.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.ekoterm {
+  background-image: url("/static/images/ekoterm.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.brands {
+  background-image: url("/static/images/bridge_crop.png");
+  background-position: center;
+  background-size: cover;
 }
