@@ -2,6 +2,10 @@ from django.views import generic
 
 
 
+class AboutTemplateView(generic.TemplateView):
+    template_name = 'about.html'
+
+
 class ContactTemplateView(generic.TemplateView):
     template_name = 'contact.html'
 
@@ -33,6 +37,8 @@ class OilsTemplateView(generic.TemplateView):
 class PrivacyTemplateView(generic.TemplateView):
     template_name = 'privacy.html'
 
+
+about_view = AboutTemplateView.as_view()
 
 contact_view = ContactTemplateView.as_view()
 

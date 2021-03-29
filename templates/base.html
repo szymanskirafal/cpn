@@ -26,7 +26,10 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav big-text">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'pages:about' %}">O firmie</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="{% url 'pages:ekoterm' %}">Ekoterm</a>
       </li>
@@ -41,9 +44,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{% url 'pages:contact' %}">Kontakt</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{% url 'pages:history' %}">Historia</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="{% url 'pages:privacy' %}">Prywatność</a>
